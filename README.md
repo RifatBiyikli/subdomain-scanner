@@ -7,7 +7,7 @@
 Öğrenci No: 2320191076
 ```
 
-Hedef domain için **pasif** ve **aktif tarama** yöntemlerini birleştirerek alt alan adlarını belirleyen güçlü bir araç. Bu araç, güvenlik araştırmacıları, penótrasyon test uzmanları ve geliştiriciler için keşfedilme görevlerini kolaylaştırmak için tasarlanmıştır.
+Hedef domain için **pasif** ve **aktif tarama** yöntemlerini birleştirerek alt alan adlarını belirleyen güçlü bir araç. Bu araç, güvenlik araştırmacıları, penotrasyon test uzmanları ve geliştiriciler için keşfedilme görevlerini kolaylaştırmak için tasarlanmıştır.
 
 ---
 
