@@ -2,40 +2,40 @@
 
 
 
+🔧 **Proje Sahibi**:
 ```
 İsim: Rıfat Bıyıklı
 Öğrenci No: 2320191076
 ```
-
-Hedef domain için **pasif** ve **aktif tarama** yöntemlerini birleştirerek alt alan adlarını belirleyen güçlü bir araç. Bu araç, güvenlik araştırmacıları, penotrasyon test uzmanları ve geliştiriciler için keşfedilme görevlerini kolaylaştırmak için tasarlanmıştır.
-
----
-
-## Özellikler
-
-### Pasif Tarama
-- **Sertifika Şeffaflık (CT)** loglarından alt alan adları çıkarımı (crt.sh gibi).
-
-### Aktif Tarama
-- Kelime listesi tabanlı **brute force alt alan adı keşif**.
-- İlgili alt alan adlarını belirlemek için **permütasyon tabanlı tarama**.
-
-### DNS Analizi
-- DNS kayıtlarını çözümleme (A, CNAME, MX).
-- Wildcard DNS yapılandırmalarını tespit edin ve sonuçları filtreleyin.
-
-### Doğrulama ve Erişilebilirlik Kontrolleri
-- Keşfedilen alt alan adlarını doğrulama.
-- Wildcard DNS'ten etkilenen sonuçları hariç tutma.
+🌐 **Keşfedilmemiş Alan Adlarına Ulaşmak için Hazır!**
 
 ---
 
-## Kurulum
+## Özellikler 🔍
 
-### Gereksinimler
-- Python 3.7 veya üstü
+### 🔮 Pasif Tarama
+- 📄 **Sertifika Şeffaflık (CT)** loglarından alt alan adları çıkarımı (crt.sh gibi).
 
-### Gerekli Python Kütüphaneleri
+### 🔄 Aktif Tarama
+- 🔑 Kelime listesi tabanlı **brute force alt alan adı keşif**.
+- 🧳 İlgili alt alan adlarını belirlemek için **permütasyon tabanlı tarama**.
+
+### 🔐 DNS Analizi
+- 🔎 DNS kayıtlarını çözümleme (A, CNAME, MX).
+- 🔦 Wildcard DNS yapılandırmalarını tespit edin ve sonuçları filtreleyin.
+
+### ✅ Doğrulama ve Erişilebilirlik Kontrolleri
+- ✔️ Keşfedilen alt alan adlarını doğrulama.
+- 🔒 Wildcard DNS'ten etkilenen sonuçları hariç tutma.
+
+---
+
+## Kurulum ⚙️
+
+### Gereksinimler 🔹
+- 💾 Python 3.7 veya üstü
+
+### Gerekli Python Kütüphaneleri 🔄
 Gerekli bağımlılıkları pip ile yükleyin:
 ```bash
 pip install requests dnspython aiohttp
@@ -43,39 +43,39 @@ pip install requests dnspython aiohttp
 
 ---
 
-## Kullanım
+## Kullanım ⚡️
 
-1. Depoyu klonlayın:
+1. 🔄 Depoyu klonlayın:
 ```bash
 git clone https://github.com/yourusername/subdomain-scanner.git
 cd subdomain-scanner
 ```
 
-2. Brute force tarama için bir kelime listesi hazırlayın:
-   - Özel bir kelime listesi kullanabilir veya [SecLists](https://github.com/danielmiessler/SecLists)'den birini indirebilirsiniz.
+2. 🔎 Brute force tarama için bir kelime listesi hazırlayın:
+   - ⚡️ Özel bir kelime listesi kullanabilir veya [SecLists](https://github.com/danielmiessler/SecLists)'den birini indirebilirsiniz.
 
-3. Aracı çalıştırın:
+3. 🔍 Aracı çalıştırın:
 ```bash
 python subdomain_scanner.py
 ```
 
-4. Hedef domain ve kelime listesi dosyasının yolunu girin:
+4. 🎡 Hedef domain ve kelime listesi dosyasının yolunu girin:
 ```
 Enter the target domain: example.com
 Enter the path to the wordlist: ./wordlists/common.txt
 ```
 
-5. Tarama tamamlandığında sonuçları `results.txt` dosyasında görüntüleyin.
+5. 📃 Tarama tamamlandığında sonuçları `results.txt` dosyasında görüntüleyin.
 
 ---
 
-## Çıktı
-- **Sonuç Dosyası**: Keşfedilen tüm alt alan adları `results.txt` dosyasına kaydedilir.
-- **Wildcard Filtreleme**: Wildcard DNS girişleriyle eşleşen alt alan adları sonuçlardan hariç tutulur.
+## Çıktı 📈
+- 🔎 **Sonuç Dosyası**: Keşfedilen tüm alt alan adları `results.txt` dosyasına kaydedilir.
+- 🔦 **Wildcard Filtreleme**: Wildcard DNS girişleriyle eşleşen alt alan adları sonuçlardan hariç tutulur.
 
 ---
 
-## Proje Yapısı
+## Proje Yapısı 🏛️
 ```plaintext
 subdomain-scanner/
 ├── src/
@@ -96,28 +96,26 @@ subdomain-scanner/
 
 ---
 
-## İleri Düzey Özellikler (Gelecek Geliştirmeler)
+## İleri Düzey Özellikler (Gelecek Geliştirmeler) 🌐
 
-- **API Entegrasyonları**:
+- 🔧 **API Entegrasyonları**:
   - VirusTotal, Shodan veya Censys gibi API'lerle entegrasyon.
-- **HTTP ve HTTPS Kontrolleri**:
+- 🔍 **HTTP ve HTTPS Kontrolleri**:
   - Keşfedilen alt alan adların aktif web sunucusu barındırıp barındırmadığını doğrulama.
-- **Permütasyon ve Mutasyonlar**:
+- 🔄 **Permütasyon ve Mutasyonlar**:
   - Uç durumlar için alt alan adı mutasyonlarını uygulama (örn., `dev`, `test`, `staging`).
-- **Raporlama**:
+- 📃 **Raporlama**:
   - Daha iyi veri işleme için sonuçları CSV veya JSON formatında dışa aktarın.
 
----
 
 
 ---
 
-## Yasal Uyarı
+## Yasal Uyarı ⚠️
 Bu araç, sadece eğitim ve etik amaçlarla kullanılmalıdır. Araç, açık bir izin olmaksızın domainlere karşı yetkisiz kullanım için kesinlikle yasaktır.
 
 ---
 
 ### İyi Taramalar! 🚀
-
 
 
