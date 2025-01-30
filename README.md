@@ -11,6 +11,10 @@
 
 ---
 
+---
+🔍 Alt alan adı işletim aracınız, internet üzerinde gizli ve keşfedilmemiş alt alan adlarını hızlı ve verimli bir şekilde listeleme olanağı tanır. 🌐 Hem pasif hem de aktif tarama yöntemleri ile dağılım dağılımı yoluyla, alan adı güvenliğinizi ve altyapınızı analiz etmenizi sağlar. 🔑 Etkili DNS çözümlemeleri ve joker karakter depolama özellikleri ile projenizi bir adım öteye taşıyın. 🚀
+---
+
 ## Özellikler 🔍
 
 ### 🔮 Pasif Tarama
